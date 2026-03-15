@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CareerConnect Job Board</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>CareerConnect Job Board</h1>
+<input type="text" id="search" placeholder="Search jobs..." onkeyup="searchJobs()">
+</header>
+
+<section class="form-section">
+
+<h2>Post a Job</h2>
+
+<input type="text" id="jobTitle" placeholder="Job Title">
+<input type="text" id="companyName" placeholder="Company Name">
+<input type="text" id="location" placeholder="Location">
+
+<button onclick="addJob()">Add Job</button>
+
+</section>
+
+<div class="jobs" id="jobList">
+
+<div class="job">
+<h3>Frontend Developer</h3>
+<p>Company: TechCorp</p>
+<p>Location: Remote</p>
+<button>Apply</button>
+</div>
+
+<div class="job">
+<h3>Backend Developer</h3>
+<p>Company: CodeLabs</p>
+<p>Location: Bangalore</p>
+<button>Apply</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

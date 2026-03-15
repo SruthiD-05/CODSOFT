@@ -1,0 +1,97 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+margin:0;
+background:linear-gradient(135deg,#eef2f7,#dbe5f1);
+}
+
+/* Header */
+
+header{
+background:#1e293b;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+margin-bottom:10px;
+}
+
+/* Search Bar */
+
+#search{
+padding:12px;
+width:60%;
+border:none;
+border-radius:25px;
+outline:none;
+font-size:15px;
+}
+
+/* Jobs Section */
+
+.jobs{
+padding:40px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* Job Cards */
+
+.job{
+background:white;
+width:60%;
+padding:25px;
+margin:15px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.2s;
+}
+
+.job:hover{
+transform:translateY(-5px);
+}
+
+/* Job Title */
+
+.job h3{
+margin-top:0;
+color:#1e293b;
+}
+
+/* Apply Button */
+
+button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+border-radius:6px;
+background:#2563eb;
+color:white;
+font-size:14px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+.form-section{
+background:white;
+width:60%;
+margin:30px auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.form-section input{
+display:block;
+width:80%;
+margin:10px auto;
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+}

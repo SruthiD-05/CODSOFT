@@ -1,0 +1,134 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+margin:0;
+background:#f0f4f8;
+color:#333;
+text-align:center;
+}
+
+/* Header */
+
+header{
+background:linear-gradient(135deg,#5b7fb5,#3c5a99);
+color:white;
+padding:50px 20px;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+}
+
+/* Navigation */
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+color:white;
+margin:0 12px;
+text-decoration:none;
+font-weight:600;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* Sections */
+
+section{
+padding:40px 20px;
+}
+
+/* Profile Image */
+
+.about img{
+width:150px;
+border-radius:50%;
+margin-top:20px;
+border:4px solid #5b7fb5;
+}
+
+/* Skills */
+
+.skills ul{
+list-style:none;
+padding:0;
+}
+
+.skills li{
+display:inline-block;
+background:#5b7fb5;
+color:white;
+margin:8px;
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* Education */
+
+.education{
+background:white;
+width:70%;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Projects */
+
+.project{
+background:white;
+width:70%;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.2s;
+}
+
+.project:hover{
+transform:translateY(-5px);
+}
+
+/* Resume Button */
+
+.resume a{
+background:#5b7fb5;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:8px;
+display:inline-block;
+margin-top:10px;
+font-weight:600;
+}
+
+.resume a:hover{
+background:#486aa1;
+}
+
+/* Contact */
+
+.contact p{
+font-size:16px;
+margin:5px;
+}
+
+/* Footer */
+
+footer{
+background:#333;
+color:white;
+padding:15px;
+margin-top:30px;
+}
